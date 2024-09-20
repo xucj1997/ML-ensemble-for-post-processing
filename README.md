@@ -1,1 +1,2 @@
 # ML-ensemble-for-post-processing
+The main idea of the post-processing model based on ensemble ML is to use historical runoff error information to train multiple ML algorithms (also called base learners) to establish a mapping relationship between current and historical errors. Then, the calculation results of each base learner are integrated in the Stacking framework to obtain the final runoff predictions. 
